@@ -1,3 +1,5 @@
+num = int(input("enter a number:"))
+
 def soet(num):
     prime = [True for i in range(num+1)]
 
@@ -16,7 +18,7 @@ def soet(num):
             print(p)
 
 
-num = int(input{})
-print("Following are the prime numbers smaller"),
+
+print("Following are the prime numbers smaller")
 print("that or equal to",num)
 soet(num)
